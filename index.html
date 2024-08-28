@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="game-wrapper">
+        <h1>Click any cell</h1>
+        <div class="game">
+            <div class="cell bottom right"></div>
+            <div class="cell bottom right"></div>
+            <div class="cell bottom"></div>
+            <div class="cell bottom right"></div>
+            <div class="cell bottom right"></div>
+            <div class="cell bottom"></div>
+            <div class="cell right"></div>
+            <div class="cell right"></div>
+            <div class="cell"></div>
+        </div>
+
+    </div>
+    <div class="modal-layer">
+        <div class="overlay"></div>
+        <div class="modal">
+            <h2>Victory!</h2>
+            <p class="message"></p>
+            <table>
+                <caption>
+                    A summary of 10 last games
+                </caption>
+                <thead>
+                    <tr class="tableHead">
+                        <th>Winner</th>
+                        <th>Moves number</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <audio id="moveAudio" src="assets/podnimayuschiysya-naverh-schelchok.mp3"></audio>
+    <audio id="victoryAudio" src="assets/zvuk-pobedyi-vyiigryisha.mp3"></audio>
+    <footer>
+        <div class="author">
+            <p>&#169; 2024 <a href="https://github.com/khremli-vera">khremli-vera</a></p>
+        </div>
+        <a href="https://rs.school/courses/javascript-ru"><img src="assets/svg/rss.svg"></a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
